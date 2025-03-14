@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sky Whale Runner</title>
+  <!-- Phaser 3 -->
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.js"></script>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #87CEEB;
+    }
+  </style>
+
+  <!-- Inject Vercel Analytics -->
+  <script type="module">
+    import { inject } from "/node_modules/@vercel/analytics/dist/analytics.es.js";
+    inject();
+  </script>
+</head>
+<body>
+  <!-- Your game code -->
+  <script src="game.js"></script>
+</body>
+</html>
